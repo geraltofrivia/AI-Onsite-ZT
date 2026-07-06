@@ -1,0 +1,20 @@
+Model1:
+Evaluation
+  accuracy: 0.8090
+  precision: 0.8302
+  recall: 0.8462
+  f1: 0.8381
+
+Feature importances
+  cosine_sim: 642.96
+  manhattan_dist: 275.80
+  dot_product: 211.95
+  norm_diff: 34.12
+  euclidean_dist: 24.55
+  chebyshev_dist: 23.87
+  absdiff_std: 12.58
+  norm2: 8.85
+  norm1: 7.74
+  absdiff_mean: 0.00
+  absdiff_max: 0.00
+  prod_sum: 0.00
