@@ -1,0 +1,26 @@
+// https://github.com/TheAlgorithms/Java/tree/24f4090210fb68b287df9c4ba37b804c6135ef04/src/main/java/com/thealgorithms/datastructures/trees/AVLTree.java#L167-L188
+public class TempClass {
+    private void rebalance(Node n) {
+        setBalance(n);
+        if (n.balance == -2) {
+            if (height(n.left.left) >= height(n.left.right)) {
+                n = rotateRight(n);
+            } else {
+                n = rotateLeftThenRight(n);
+            }
+        } else if (n.balance == 2) {
+            if (height(n.right.right) >= height(n.right.left)) {
+                n = rotateLeft(n);
+            } else {
+                n = rotateRightThenLeft(n);
+            }
+        }
+
+        if (n.parent != null) {
+            rebalance(n.parent);
+        } else {
+            root = n;
+        }
+    }
+
+}
