@@ -11,6 +11,7 @@ We would like you to discuss the results and share your suggestions on how to de
 [OPTIONAL] If you have time, you may want to deepen your initial solution, Here are some potential ideas for your inspiration (not restrictive, you can come up with other ideas):
 
 ' Compare with a different embedding model (e.g. UnixCoder)
+
 ' Closer inspection of the applicability of your solution to use cases in the real life. An example: how can this be applied to repo clone detection, i.e. detecting if there are some similar functions in big repos?
 
 ## Overview
